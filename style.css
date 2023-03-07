@@ -1,0 +1,135 @@
+html{
+  scroll-behavior: smooth;
+}
+.nav-menu-mobile {
+  transition: all 0.3s ease-in-out;
+  transform: translateX(-100%);
+}
+
+.nav-menu-mobile:not(.hidden) {
+  transform: translateX(0%);
+}
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.faq-answer:not(.hidden) {
+  max-height: 1000px;
+  transition: max-height 0.5s ease-in;
+}
+
+/* Style for the toggle button */
+.toggle-checkbox:checked + .toggle-label {
+  background-color: #1a202c;
+}
+
+.toggle-checkbox:focus + .toggle-label {
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1), 0 0 0 4px rgba(66, 153, 225, 0.5);
+}
+
+/* Style for dark theme */
+[data-theme="dark"] {
+  --bg-color: #2e2f35;
+  --bg-color-2: #4a4c5a;
+  --bg-color-3: #BBAB92;
+  --text-color: #f7fafc;
+}
+
+[data-theme="dark"] #header {
+  background-color: var(--bg-color);
+}
+
+[data-theme="dark"] #header-m {
+  background-color: var(--bg-color);
+}
+
+[data-theme="dark"] #bg-hero {
+  background-color: var(--bg-color);
+}
+
+[data-theme="dark"] #commerce {
+  background-color: var(--bg-color);
+}
+
+[data-theme="dark"] #chat {
+  background-color: var(--bg-color);
+}
+
+[data-theme="dark"] #erp {
+  background-color: var(--bg-color);
+}
+
+[data-theme="dark"] #belanja {
+  background-color: var(--bg-color);
+}
+
+[data-theme="dark"] #bot {
+  background-color: var(--bg-color);
+}
+
+[data-theme="dark"] #wer {
+  background-color: var(--bg-color);
+}
+
+[data-theme="dark"] #teknologi {
+  background-color: var(--bg-color-2);
+}
+
+[data-theme="dark"] #belajar {
+  background-color: var(--bg-color-2);
+}
+
+[data-theme="dark"] #market {
+  background-color: var(--bg-color-2);
+}
+
+[data-theme="dark"] #data {
+  background-color: var(--bg-color-2);
+}
+
+[data-theme="dark"] #digital {
+  background-color: var(--bg-color-2);
+}
+
+[data-theme="dark"] #big {
+  background-color: var(--bg-color-2);
+}
+
+[data-theme="dark"] .text-gray-700 {
+  color: var(--text-color);
+}
+
+[data-theme="dark"] .text-f3e2c8 {
+  color: var(--text-color);
+}
+
+[data-theme="dark"] .tulisan-putih {
+  color: var(--text-color);
+}
+
+[data-theme="dark"] .card {
+  background-color: var(--bg-color-3);
+}
+
+[data-theme="dark"] .text-black {
+  color: var(--text-color);
+}
+
+[data-theme="dark"] .testimoni{
+  background-color: var(--bg-color);
+}
+
+[data-theme="dark"] .toggle-label {
+  background-color: #f7fafc;
+}
+
+[data-theme="dark"] .appearance-none {
+  transform: translateX(18px);
+}
+
+[data-theme="dark"] .toggle-checkbox:checked + .toggle-label {
+  background-color: #4a5568;
+}
+

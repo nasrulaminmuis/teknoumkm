@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tekno UMKM</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/92bf7d6fa0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!--header start-->
+  <header class="bg-[#f3e2c8] flex items-center justify-between px-20 py-3 fixed top-0 w-full dark:bg-gray-900  border-b-4 border-[#547E77]" id="header">
+    <div class="flex-1">
+      <a href="index.html" class="font-bold"><span class="text-black tulisan-putih">TU</span></a>
+    </div>
+    <button class="navbar-toggler md:hidden focus:outline-none">
+      <svg class="w-6 h-6" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path class="text-black fill-current" fill-rule="evenodd" clip-rule="evenodd" d="M21 7H3V5h18v2zm0 6H3v-2h18v2zm0 6H3v-2h18v2z"/>
+      </svg>
+    </button>
+    <nav class="nav-menu pr-20 hidden md:block">
+      <ul class="flex justify-center space-x-10 md:space-x-8">
+        <li><a href="index.html" class="text-f3e2c8 hover:text-yellow-700 dark:text-gray-400 dark:hover:text-yellow-700">Beranda</a></li>
+        <li><a href="tekno.html" class="text-f3e2c8 hover:text-yellow-700 dark:text-gray-400">Teknologi</a></li>
+        <li><a href="testi.html" class="text-f3e2c8 hover:text-yellow-700 dark:text-gray-400">Testimoni</a></li>
+        <li><a href="#footer" class="text-f3e2c8 hover:text-yellow-700 dark:text-gray-400">Kontak</a></li>
+      </ul>
+    </nav>
+    <div class="items-center justify-center hidden md:block">
+      <span class="text-gray-700 dark:text-gray-400 mr-2">Terang</span>
+      <div class="relative inline-block w-10 mr-2 align-middle select-none transition duration-200 ease-in">
+        <input type="checkbox" name="toggle" id="toggle" class="toggle-checkbox absolute block w-6 h-6 rounded-full bg-white border-4 appearance-none cursor-pointer"/>
+        <label for="toggle" class="toggle-label block overflow-hidden h-6 rounded-full bg-gray-300 cursor-pointer" ></label>
+      </div>
+      <span class="text-gray-700 dark:text-gray-400">Gelap</span>
+    </div>
+    <nav class="nav-menu-mobile md:hidden fixed top-0 left-0 w-full h-full bg-[#f3e2c8] z-50 hidden" id="header">
+      <ul class="flex flex-col justify-center h-full">
+        <li><a href="tekno.html" class="block text-center text-f3e2c8 hover:text-yellow-700 py-5">Teknologi</a></li>
+        <li><a href="#" class="block text-center text-f3e2c8 hover:text-yellow-700 py-5">Testimoni</a></li>
+        <li><a href="#footer" class="block text-center text-f3e2c8 hover:text-yellow-700 py-5">Kontak</a></li>
+      </ul>
+      <button class="navbar-close-btn absolute top-0 right-0 p-2 focus:outline-none">
+        <svg class="w-6 h-6" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path class="text-black fill-current" fill-rule="evenodd" clip-rule="evenodd" d="M12 10.585l4.243-4.242 1.414 1.414L13.414 12l4.243 4.243-1.414 1.414L12 13.415l-4.242 4.242-1.414-1.414L10.586 12 6.343 7.757l1.414-1.414L12 10.585z"/>
+        </svg>
+      </button>
+    </nav>
+  </header>
+  
+  <!--header end-->
+  <!-- hero section start-->
+  <hr>
+  <section id="hero">
+    <div class="flex flex-wrap justify-between items-center py-32 px-20 bg-[#f3e2c8]"  id="bg-hero">
+      <div class="w-full md:w-1/2 mb-10 md:mb-0 md:pr-10">
+        <h1 class="text-3xl font-bold mb-4 animate-pulse tulisan-putih" id="tekno">Tekno <span class="hover:text-red-700 hover:bg-gray-400 tulisan-putih" id="tekno2">UM</span><span class="hover:bg-gray-400 hover:text-white tulisan-putih" id="tekno3">KM</span></h1>
+        <p class="text-black text-lg md:text-2xl mb-8">website yang membahas tentang teknologi-teknologi canggih yang bisa membantu usaha kecil dan menengah untuk menjadi lebih maju. Dengan Tekno UMKM, para pelaku UMKM akan dapat mengetahui bagaimana teknologi-teknologi tersebut dapat membantu bisnis mereka dan meningkatkan efisiensi dan efektivitas dalam menjalankan bisnis.</p>
+        <a href="#teknologi">
+          <button class="bg-yellow-800 hover:bg-blue-800 text-white font-bold py-2 px-4 rounded transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300">
+            Pelajari Lebih Lanjut
+          </button>
+        </a>
+      </div>
+      <div class="w-full md:w-1/2">
+        <img src="gambar/toko.webp" alt="Teknologi" class="h-auto w-full">
+      </div>
+    </div>
+  </section>
+  <!-- hero section end-->
+
+  <!--teknologi start-->
+  <section class="section-with-background bg-[#f7f3ea] " id="teknologi">
+    <section class="py-8">
+      <div class="container mx-auto flex flex-wrap pt-4 pb-12">
+        <h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800 tulisan-putih">Teknologi</h1>
+        <div class="w-full mb-4">
+          <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+        </div>
+    
+        <div class="flex flex-wrap w-full justify-center">
+          <div class="w-full md:w-1/2 lg:w-1/3 p-6 flex flex-col">
+            <div class="flex-1 bg-[#F3E2C8] rounded-t rounded-b-none overflow-hidden shadow">
+              <a href="#" class="flex flex-wrap no-underline hover:no-underline">
+                <p class="w-full text-gray-600 text-xs md:text-sm px-6 pt-6">Belanja Online</p>
+                <div class="w-full font-bold text-xl text-gray-800 px-6">Platform Belanja Online</div>
+                <p class="text-gray-800 text-base px-6 py-3 mb-5">
+                  meningkatkan jangkauan, mempercepat pembaruan, dan menghemat biaya UMKM
+                </p>
+              </a>
+            </div>
+            <div class="flex-none mt-auto bg-[#BBAB92] rounded-b rounded-t-none overflow-hidden shadow p-6">
+              <div class="flex items-center justify-between">
+                <a href="tekno.html#commerce">
+                  <button class="bg-[#FFEECB] hover:bg-[#FAF8F1] text-[#005B4C] font-bold py-2 px-4 rounded-full transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300">Lihat Detail</button>
+                </a>
+              </div>
+            </div>
+          </div>
+    
+          <div class="w-full md:w-1/2 lg:w-1/3 p-6 flex flex-col">
+            <div class="flex-1 bg-[#F3E2C8] rounded-t rounded-b-none overflow-hidden shadow">
+              <a href="#" class="flex flex-wrap no-underline hover:no-underline">
+                <p class="w-full text-gray-600 text-xs md:text-sm px-6 pt-6">Pemasaran Online</p>
+                <div class="w-full font-bold text-xl text-gray-800 px-6">Solusi Pemasaran Online</div>
+                <p class="text-gray-800 text-base px-6 py-3 mb-5">
+                  meningkatkan visibilitas dan penjualan UMKM melalui personalisasi, targeting, dan analisis data.
+                </p>
+              </a>
+            </div>
+            <div class="flex-none mt-auto bg-[#BBAB92] rounded-b rounded-t-none overflow-hidden shadow p-6">
+              <div class="flex items-center justify-between">
+                <a href="tekno.html#market">
+                  <button class="bg-[#FFEECB] hover:bg-[#FAF8F1] text-[#005B4C] font-bold py-2 px-4 rounded-full transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">Lihat Detail</button>
+                </a>
+              </div>
+            </div>
+          </div>
+    
+          <div class="w-full md:w-1/2 lg:w-1/3 p-6 flex flex-col">
+            <div class="flex-1 bg-[#F3E2C8] rounded-t rounded-b-none overflow-hidden shadow">
+              <a href="#" class="flex flex-wrap no-underline hover:no-underline">
+              <p class="w-full text-gray-600 text-xs md:text-sm px-6 pt-6">Chatbot</p>
+              <div class="w-full font-bold text-xl text-gray-800 px-6">Solusi Chatbot</div>
+              <p class="text-gray-800 text-base px-6 py-3 mb-5">
+                meningkatkan efisiensi bisnis UMKM dan pengalaman pelanggan.
+              </p>
+              </a>
+              </div>
+              <div class="flex-none mt-auto bg-[#BBAB92] rounded-b rounded-t-none overflow-hidden shadow p-6">
+              <div class="flex items-center justify-between">
+              <a href="tekno.html#chat">
+                <button class="bg-[#FFEECB] hover:bg-[#FAF8F1] text-[#005B4C] font-bold py-2 px-4 rounded-full transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300">Lihat Detail</button>
+              </a>
+              </div>
+              </div>
+              </div>
+              <div class="w-full md:w-1/2 lg:w-1/3 p-6 flex flex-col">
+                <div class="flex-1 bg-[#F3E2C8] rounded-t rounded-b-none overflow-hidden shadow">
+                  <a href="#" class="flex flex-wrap no-underline hover:no-underline">
+                    <p class="w-full text-gray-600 text-xs md:text-sm px-6 pt-6">Big Data</p>
+                    <div class="w-full font-bold text-xl text-gray-800 px-6">Analisis Big Data</div>
+                    <p class="text-gray-800 text-base px-6 py-3 mb-5">
+                      untuk memperoleh informasi berharga tentang perilaku konsumen, tren pasar, dan preferensi pelanggan
+                    </p>
+                  </a>
+                </div>
+                <div class="flex-none mt-auto bg-[#BBAB92] rounded-b rounded-t-none overflow-hidden shadow p-6">
+                  <div class="flex items-center justify-between">
+                   <a href="tekno.html#data">
+                    <button class="bg-[#FFEECB] hover:bg-[#FAF8F1] text-[#005B4C] font-bold py-2 px-4 rounded-full transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">Lihat Detail</button>
+                   </a>
+                  </div>
+                </div>
+              </div>
+            
+              <div class="w-full md:w-1/2 lg:w-1/3 p-6 flex flex-col">
+                <div class="flex-1 bg-[#F3E2C8] rounded-t rounded-b-none overflow-hidden shadow">
+                  <a href="#" class="flex flex-wrap no-underline hover:no-underline">
+                    <p class="w-full text-gray-600 text-xs md:text-sm px-6 pt-6">Software ERP</p>
+                    <div class="w-full font-bold text-xl text-gray-800 px-6">Sistem ERP Terintegrasi</div>
+                    <p class="text-gray-800 text-base px-6 py-3 mb-5">
+                      meningkatkan efisiensi UMKM dengan data terpusat dan akurat.
+                    </p>
+                  </a>
+                </div>
+                <div class="flex-none mt-auto bg-[#BBAB92] rounded-b rounded-t-none overflow-hidden shadow p-6">
+                  <div class="flex items-center justify-between">
+                   <a href="tekno.html#erp">
+                    <button class="bg-[#FFEECB] hover:bg-[#FAF8F1] text-[#005B4C] font-bold py-2 px-4 rounded-full transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300">Lihat Detail</button>
+                   </a>
+                  </div>
+                </div>
+              </div>
+  </section>  
+  <!--teknologi end-->
+
+  <!--testimoni start-->
+<section class="testimoni bg-[#f3e2c8]">
+  <div class="container mx-auto px-10 py-10">
+    <h2 class="text-3xl font-bold text-center mb-10 py-10 tulisan-putih" >Testimoni</h2>
+    <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      <li class="animate__animated animate__fadeIn">
+        <div class="bg-white rounded-lg overflow-hidden shadow-lg card">
+          <div class="px-6 py-4">
+            <div class="mr-4">
+              <i class="fas fa-user-circle fa-3x text-blue-500"></i>
+            </div>
+            <div class="font-bold text-xl mb-2 tulisan-putih">Kisah umkm go</div>
+            <p class="text-gray-700 text-base">
+              Kris ingin memperluas pangsa pasarnya hingga ke luar negeri dan melalui program Kampus UMKM Shopee Ekspor Bandung, dia mendapatkan pengetahuan dan informasi yang diperlukan untuk berpartisipasi dalam Program Ekspor Shopee. Kevin Naftali, pemilik usaha fesyen pria Kevasco, telah mendapatkan kemudahan dalam proses ekspor dari Program Eskpor Shopee dan berhasil meningkatkan omzet bisnisnya hingga 2 kali lipat pada tahun 2020 setelah bergabung dengan program tersebut. 20% hingga 25% omzet penjualan Kevasco yang ada di Shopee berasal dari penjualan ekspor. Kris dan Kevin sama-sama merasa bahwa Program Ekspor Shopee sangat membantu dalam memperluas pangsa pasar dan melakukan ekspansi bisnis.
+
+            </p>
+          </div>
+        </div>
+      </li>
+      <li class="animate__animated animate__fadeIn">
+        <div class="bg-white rounded-lg overflow-hidden shadow-lg card">
+          <div class="px-6 py-4">
+            <div class="mr-4">
+              <i class="fas fa-user-circle fa-3x text-blue-500"></i>
+            </div>
+            <div class="font-bold text-xl mb-2 tulisan-putih">Kisah Inspiratif Diah Cookies yang Konsisten ‘Mengikuti Ombak’ di Era Digital</div>
+            <p class="text-gray-700 text-base">
+              Diah Cookies awalnya berjualan kue kering secara online melalui platform digital seperti Facebook dan BBM sejak tahun 2006. Dalam perkembangannya, Diah Cookies memanfaatkan media sosial lainnya seperti Instagram, WhatsApp, Facebook, dan Google Business yang membantu sekitar 70 hingga 80 persen penjualan. Selain itu, Diah Cookies juga menggunakan software akuntansi dan kasir digital untuk memudahkan operasional bisnis. Meski sudah memiliki penjualan online yang sukses, Diah Cookies akhirnya memutuskan untuk membuka toko offline untuk membangun branding yang lebih baik. Ibu Diah juga membantu pelaku UKM di sekitarnya untuk mulai go digital melalui kelas-kelas di komunitas.
+            </p>
+          </div>
+        </div>
+      </li>
+      <li class="animate__animated animate__fadeIn">
+        <div class="bg-white rounded-lg overflow-hidden shadow-lg card">
+          <div class="px-6 py-4">
+            <div class="mr-4">
+              <i class="fas fa-user-circle fa-3x text-blue-500"></i>
+            </div>
+            <div class="font-bold text-xl mb-2 tulisan-putih">Kisah sukses bisnis</div>
+            <p class="text-gray-700 text-base">
+              Joven Alpazar, seorang pengusaha yang menjalankan berbagai jenis bisnis sejak 2020, mengalami kesulitan dalam meningkatkan penjualan produknya menggunakan Facebook Ads dan pemasaran langsung melalui WA. Namun, setelah mengikuti tutorial di Grup FB Pancake untuk menerapkan Round Robin dan BotCake, ia berhasil meningkatkan penjualan hingga mencapai Rp 2 miliar dalam tiga bulan. Dengan broadcast produk ke ribuan pembeli potensial di berbagai platform dan otomatisasi pengelolaan chat dan komentar di seluruh jejaring sosial, timnya hanya perlu mensortir leads yang masuk dan meningkatkan konversi penjualan. Biaya per pesan berhasil dikurangi sebesar 1000 Rupiah dan terdapat 837 paket penjualan yang dikirimkan dalam satu hari.
+
+            </p>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="flex items-center cursor-pointer justify-center pb-10">
+    <span class="mr-2">
+     <a href="testi.html">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 tulisan-putih" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+      </svg>
+    </span>
+    <span class="tulisan-putih"> Lebih Banyak</span>
+     </a>
+  </div>
+  
+</section>
+
+  <!--testimoni end-->
+  <!--faq start-->
+  <section id="faq">
+    <div class="flex flex-col items-center py-20 px-20 bg-gray-200" style="background-image: url('gambar/Batik.webp' ); background-size: cover;" id="belajar">
+      <h2 class="text-3xl font-bold mb-10 text-center text-gray-800 tulisan-putih">Pertanyaan yang Sering Ditanyakan</h2>
+      <div class="w-full md:w-1/2">
+        <div class="faq-item border-b-2 border-gray-400 py-4">
+          <button class="faq-question flex justify-between items-center w-full focus:outline-none">
+            <span class="text-lg font-semibold mr-4 tulisan-putih">Apa itu UMKM dan bagaimana UMKM berbeda dengan usaha besar?</span>
+            <span class="faq-icon"><i class="fas fa-plus"></i></span>
+          </button>
+          <div class="faq-answer hidden pt-4 text-gray-700 tulisan-putih">
+            UMKM adalah singkatan dari Usaha Mikro Kecil dan Menengah. UMKM biasanya dimiliki dan dijalankan oleh orang-orang dengan modal terbatas dan jumlah karyawan yang relatif kecil. UMKM sering dianggap sebagai tulang punggung ekonomi di banyak negara karena banyaknya jumlah usaha ini dan kontribusinya terhadap pertumbuhan ekonomi.
+
+Perbedaan antara UMKM dan usaha besar terletak pada skala operasinya. Usaha besar biasanya memiliki modal dan sumber daya manusia yang lebih besar daripada UMKM. Usaha besar biasanya memiliki cakupan yang lebih luas dan dapat beroperasi secara nasional atau bahkan internasional. Sementara itu, UMKM cenderung fokus pada pasar lokal dan tidak memiliki jangkauan yang luas. Meskipun demikian, UMKM tetap menjadi bagian penting dari perekonomian karena memberikan kontribusi yang signifikan terhadap penciptaan lapangan kerja dan pertumbuhan ekonomi pada tingkat lokal.          </div>
+        </div>
+        <div class="faq-item border-b-2 border-gray-400 py-4">
+          <button class="faq-question flex justify-between items-center w-full focus:outline-none">
+            <span class="text-lg font-semibold mr-4 tulisan-putih">Apa saja jenis UMKM yang ada?</span>
+            <span class="faq-icon"><i class="fas fa-plus"></i></span>
+          </button>
+          <div class="faq-answer hidden pt-4 text-gray-700 tulisan-putih">
+            Jenis UMKM sangat beragam tergantung pada jenis produk atau jasa yang ditawarkan, modal yang dimiliki, dan jumlah karyawan yang terlibat dalam operasinya. Beberapa contoh jenis UMKM antara lain:
+
+Usaha kuliner, seperti kafe, restoran, warung makan, katering, dan usaha makanan ringan.
+Usaha fashion, seperti butik, toko baju, usaha bordir, dan produksi aksesoris.
+Usaha jasa, seperti jasa kebersihan, jasa kecantikan, jasa pengiriman, jasa perawatan kesehatan, dan jasa perbaikan barang.
+Usaha pertanian, seperti pertanian tanaman, peternakan, dan perikanan.
+Usaha kreatif, seperti fotografi, seni lukis, seni kerajinan, dan desain grafis.
+Usaha teknologi, seperti pengembangan aplikasi, pengembangan perangkat lunak, dan jasa konsultasi teknologi informasi.
+Usaha kerajinan, seperti kerajinan tangan, tenun, batik, dan anyaman.
+Namun, daftar ini hanya beberapa contoh jenis UMKM dan tidaklah lengkap karena jenis usaha yang bisa dikategorikan sebagai UMKM bisa sangat bervariasi. Hal ini tergantung pada kriteria yang digunakan untuk mengklasifikasikan UMKM.          </div>
+        </div>
+        <div class="faq-item py-4">
+          <button class="faq-question flex justify-between items-center w-full focus:outline-none">
+            <span class="text-lg font-semibold mr-4 tulisan-putih">Bagaimana cara memulai usaha UMKM?</span>
+            <span class="faq-icon"><i class="fas fa-plus"></i></span>
+          </button>
+          <div class="faq-answer hidden pt-4 text-gray-700 tulisan-putih">
+            Cara memulai usaha UMKM bisa berbeda-beda tergantung pada jenis usaha, modal yang tersedia, dan sumber daya lainnya. Namun, beberapa langkah umum yang perlu dilakukan adalah:
+
+Identifikasi peluang bisnis: Pilih jenis usaha yang sesuai dengan minat dan keterampilan Anda serta potensi pasar yang ada di lingkungan sekitar.
+
+Riset pasar: Lakukan penelitian pasar untuk mengetahui kebutuhan dan preferensi konsumen, persaingan bisnis, serta harga pasar yang berlaku.
+
+Buat rencana bisnis: Buat rencana bisnis yang jelas dan terperinci, termasuk target pasar, produk atau jasa yang akan ditawarkan, strategi pemasaran, rencana keuangan, dan rencana operasional.
+
+Tentukan legalitas usaha: Tentukan legalitas usaha seperti bentuk badan usaha, izin usaha, dan dokumen pendukung lainnya yang diperlukan.
+
+Siapkan modal: Siapkan modal yang cukup untuk memulai usaha, termasuk biaya operasional dan investasi.
+
+Pilih lokasi usaha: Pilih lokasi usaha yang strategis dan mudah diakses oleh konsumen.
+
+Siapkan sumber daya manusia: Siapkan tenaga kerja yang diperlukan untuk menjalankan usaha, baik itu tenaga kerja tetap maupun tenaga kerja kontrak.
+
+Lakukan promosi: Lakukan promosi untuk memperkenalkan usaha Anda dan menarik konsumen.
+
+Lakukan evaluasi: Lakukan evaluasi secara teratur untuk memastikan usaha berjalan dengan baik dan dapat berkembang.
+
+Langkah-langkah ini akan membantu Anda memulai usaha UMKM secara efektif dan efisien. Namun, setiap langkah ini perlu dipertimbangkan dengan matang dan disesuaikan dengan kebutuhan usaha Anda.          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--faq end-->
+  <!-- footer start-->
+  <footer class="footer bg-gray-400 py-8 px-10" id="footer">
+    <div class="container mx-auto px-4">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div>
+          <a href="#" class="font-bold"><img src="gambar/TU-removebg-preview.webp" alt="" class="h-30 md:h-40 w-auto"></a>
+        </div>
+        <div>
+          <h3 class="text-lg font-semibold mb-2 text-white">Alamat Kami</h3>
+          <p class="text-black">Jl. Ring Road Utara, Ngringin, Condongcatur, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55281</p>
+        </div>
+        <div>
+          <h3 class="text-lg font-semibold mb-2 text-white">Tim Kami</h3>
+          <ul class="text-black">
+            <li>Univiesitas Amikom Yogyakarta</li>
+            <li>Ariefhan Maulana</li>
+            <li>Nasrul Amin Muis</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-lg font-semibold mb-2 text-white">Hubungi Kami</h3>
+          <ul class="text-black">
+            <li><i class="fas fa-phone-alt mr-2"></i> (0274) 884201 - 207</li>
+            <li><i class="fas fa-envelope mr-2"></i> info@contoh.com</li>
+          </ul>
+          <h3 class="text-lg font-semibold mb-2 mt-2 text-white">Ikuti Kami</h3>
+          <div class="flex  mt-3">
+            <a href="#" class="mr-4"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="mr-4"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="mr-4"><i class="fab fa-whatsapp"></i></a>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- footer end-->
+
+  <!-- script start -->
+  <script src="script.js"></script>
+  <!--script end-->
+</body>
+</html>
